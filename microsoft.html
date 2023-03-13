@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft-Clouds, Computer Apps and Games</title>
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.Eqf4vo8ae5PtwtwRpweRagHaHa?pid=ImgDet&rs=1">
+    <style>
+        body{
+            margin: 0px 0px 0px 0px;
+            font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        .navbar{
+            background-color: #fff;
+            padding: 0px 75.95px;
+            margin: 0px 0px 2px 0px;
+            display: flex;
+        }
+        .imgbox{
+            width: 121px;
+            height: 23px;
+            padding: 16px 6px 16px 10px;
+            cursor: pointer;
+            
+        }
+        img{
+            width: 108px;
+            height: 23px;
+            margin: -3px 0px 0px 0px;
+        }
+        .teamwindo{
+            width: 861.737px;
+            height: 54px;
+            padding: 0px 1px 0px 2px;
+            display: flex;
+        }
+        .login{
+            width: 368.562px;
+            height: 54px;
+            padding: 0px 1px 0px 2px;
+            display: flex;
+        }
+        .micro365{
+            width: 95.162px;
+            height: 20px;
+            padding: 16px 8px 10px 8px;
+            border: 1px solid transparent;
+            margin-top: 1px;
+            cursor: pointer;
+        }
+        .Team{
+            width: 35.675px;
+            height: 20px;
+            padding: 16px 8px 10px 8px;
+            border: 1px solid transparent;
+            margin-top: 1px;
+            cursor: pointer;
+        }
+        .windo{
+            width: 52.838px;
+            height: 20px;
+            padding: 16px 8px 10px 8px;
+            border: 1px solid transparent;
+            margin-top: 1px;
+            cursor: pointer;
+        }
+        .sur{
+            width: 42.275px;
+            height: 20px;
+            padding: 16px 8px 10px 8px;
+            border: 1px solid transparent;
+            margin-top: 1px;
+            cursor: pointer;
+        }
+        .xbox{
+            width: 28.9px;
+            height: 20px;
+            padding: 16px 8px 10px 8px;
+            border: 1px solid transparent;
+            margin-top: 1px;
+            cursor: pointer;
+        }
+        .support{
+            width: 46.1px;
+            height: 20px;
+            padding: 16px 8px 10px 8px;
+            border: 1px solid transparent;
+            margin-top: 1px;
+            cursor: pointer;
+        }
+        .support:hover, .xbox:hover, .sur:hover, .windo:hover, .Team:hover, .micro365:hover, .all:hover, .search:hover, .cart:hover{
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+        }
+        .all{
+            width: 62.775px;
+            height: 20px;
+            padding: 16px 25px 16px 18px;
+            border: 1px solid transparent;
+            margin-top: 1px;
+            cursor: pointer;
+        }
+        .search{
+            width: 40px;
+            height: 20px;
+            padding: 16px 29px 16px 20px;
+            border: 1px solid transparent;
+            margin-top: 1px;
+            cursor: pointer;
+        }
+        .cart{
+            width: 40px;
+            height: 20px;
+            padding: 16px 20px 16px 15px;
+            border: 1px solid transparent;
+            margin-top: 1px;
+            cursor: pointer;
+        }
+        .sign{
+            width: 40px;
+            height: 20px;
+            padding: 16px 20px 16px 16px;
+            border: 1px solid transparent;
+            margin-top: 1px;
+            cursor: pointer;
+        }
+        .down{
+            width: 15px;
+            height: 13px;
+            position: relative;
+            left: 74px;
+            bottom: 22px;
+        }
+        .sea{
+            width: 16px;
+            height: 20px;
+            position: relative;
+            left: 41px;
+            bottom: 17px;
+        }
+        .car{
+            width: 16px;
+            height: 16px;
+            position: relative;
+            left: 29px;
+            bottom: 17px;
+        }
+        .signin{
+            width: 49px;
+            height: 45px;
+            position: relative;
+            left: 40px;
+            bottom: 29px;
+
+        }
+        .addbox{
+            width: 1519.2px;
+            height: 475px;
+            padding: 3px 3px 64px 3px;
+            /* border: 2px solid black; */
+            display: flex;
+            cursor: pointer;
+        }
+        .laptopadv{
+            width: 1519.2px;
+            height: 475px;
+        }
+        .learn{
+            width: 82.338px;
+            height: 16px;
+            /* border: 2px solid black; */
+            border-radius: 2px;
+            color: white;
+            padding: 7px 12px 15px 12px;
+            background-color: #000;
+            margin: 8px 0px;
+            text-align: center;
+            position: relative;
+        }
+        .arrow{
+            height: 44px;
+            width: 100%;
+            /* border: 2px solid black; */
+            position: absolute;
+            top: 548px;
+            margin: auto auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .a1{
+            width: 17px;
+            height: 28px;
+            margin-top: 7px;
+            position: relative;
+            /* border: 2px solid black; */
+        }
+        .a2{
+            width: 42px;
+            height: 21px;
+            margin-top: 11px;
+            position: relative;
+            padding: 0px 22px;
+        }
+        .a3{
+            width: 16px;
+            height: 27px;
+            margin-top: 9px;
+            padding: 0px 0px 0px 2px;
+            position: relative;
+        }
+        #me{
+            font-weight: 600;
+        }
+        #item1{
+            width: 79.162px;
+            height: 20px;
+            font-size: 13px !important;
+            font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #item2{
+            width: 35.675px;
+            height: 20px;
+            font-size: 13px !important;
+            font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #item3{
+            width: 52.838px;
+            height: 20px;
+            font-size: 13px !important;
+            font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #item4{
+            width: 42.275px;
+            height: 20px;
+            font-size: 13px !important;
+            font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #item5{
+            width: 28.9px;
+            height: 20px;
+            font-size: 13px !important;
+            font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #item6{
+            width: 46.1px;
+            height: 20px;
+            font-size: 13px !important;
+            font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #item7{
+            width: 72.825px;
+            height: 20px;
+            font-size: 13px !important;
+            font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #item8{
+            width: 59.775px;
+            height: 20px;
+            font-size: 13px !important;
+            font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #item9{
+            width: 40px;
+            height: 20px;
+            font-size: 13px !important;
+            font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #item10{
+            width: 40px;
+            height: 20px;
+            font-size: 13px !important;
+            font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #detail{
+            width: 473.69px;
+            height: 212.4px;
+            position: absolute;
+            left: 121px;
+            top: 183px;
+            font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #000;
+        }
+        #new{
+            width: 32.875px;
+            height: 20px;
+            color: #950c17 !important;
+            margin: -2px 0px 8px -2px;
+            background-color: #fff;
+            padding: 4px 12px 6px 12px;
+            align-items: center;
+            cursor: pointer;
+        }
+        #newbox{
+            width: 32.875px;
+            height: 16px;
+            color: #fff !important;
+            margin: 0px 0px 0px 0px;
+            background-color: #950c17;
+            padding: 2px 12px 9px 12px;
+            font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: 500;
+            align-items: center;
+            cursor: pointer;
+        }
+        #surfacepro{
+            /* width: ; */
+            font-family: inherit;
+            font-weight: 600;
+            line-height: 1.2;
+            color: #000;
+            font-size: 2.3125rem;
+            margin-bottom: 1.25rem;;
+        }
+        #req{
+            font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+        #freekagyan{
+            margin-bottom: 1.5rem !important;
+        }
+        .options{
+            width: 1367.28px;
+            height: 104px;
+            padding: 0px 75.95px 0px 75.95px;
+            margin: 0px 0.013px 16px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: center;
+            position: relative;
+            top: 50px;
+        }
+        #option1{
+            height: 72px;
+            width: 196.087px;
+            margin: 16px 24px;
+            align-items: center;
+            text-align: center;
+        }
+        #option2{
+            height: 72px;
+            width: 170.312px;
+            margin: 16px 24px;
+            align-items: center;
+            text-align: center;
+        }
+        #option3{
+            height: 72px;
+            width: 120.363px;
+            margin: 16px 24px;
+            align-items: center;
+            text-align: center;
+        }
+        #option4{
+            height: 72px;
+            width: 114.275px;
+            margin: 16px 24px;
+            align-items: center;
+            text-align: center;
+        }
+        .opt1{
+            width: 40px;
+            height: 40px;
+            margin: 0px 0px 8px;
+        }
+        .opt2{
+            font-weight: 600!important;
+            font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .newadvbox{
+            width: 1367.280px;
+            height: 448.3px;
+            padding: 0px 75.95px;
+            position: relative;
+            top: 109px;
+            display: grid !important;
+            grid-template-columns: auto auto auto auto;
+            cursor: pointer;
+        }
+        .adv{
+            width: 323.812px;
+            height: 448.3px;
+        }
+        .advv{
+            width: 323.812px;
+            height: 181.5px;
+            margin: 0px 0px;
+        }
+        .box{
+            width: 323.812px;
+            height: 32px;
+            padding: 16px 0px 0px 0px;
+            margin-top: -4.00px;
+        }
+        .tit{
+            width: 323.812px;
+            height: 34.8px;
+            margin: 0px 0px 16px;
+            font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;;
+            font-weight: 600;
+            line-height: 1.2;
+            font-size: 1.8125rem;
+        }
+        #diff{
+            height: 69.6px !important;
+        }
+        .gyan{
+            font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #000;
+            width: 323.812px;
+        }
+        .gyann{
+            height: 24px;
+            margin-bottom: 16px;
+            margin-top: 32px;
+            color: #950c17 !important;
+            font-weight: 600;
+        }
+        #gyan1{
+            height: 96px;
+        }
+        #gyan2{
+            height: 48px;
+        }
+        #gyan3{
+            height: 72px;
+        }
+        #gyan4{
+            height: 72px;
+        }
+        #cha1{
+            width: 95.338px;
+        }
+        #cha2{
+            width: 155.900px;
+        }
+        #cha3{
+            width: 126.633px;
+        }
+        #cha4{
+            width: 177px;
+        }
+        #cha5{
+            width: 160px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class = "imgbox"><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" alt=""></div>
+        <div class="teamwindo">
+            <div class="micro365">
+                <div id="item1">
+                    Microsoft 365
+                </div>
+            </div>
+            <div class="Team">
+                <div id="item2">
+                    Teams
+                </div>
+            </div>
+            <div class="windo">
+                <div id="item3">
+                    Windows
+                </div>
+            </div>
+            <div class="sur">
+                <div id="item4">
+                    Surface
+                </div>
+            </div>
+            <div class="xbox">
+                <div id="item5">
+                    Xbox
+                </div>
+            </div>
+            <div class="support">
+                <div id="item6">
+                    Support
+                </div>
+            </div>
+        </div>
+        <div class="login">
+            <div class="all">
+                <div id="item7">
+                    All Microsoft
+                </div>
+                <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/angle-down-512.png" alt="" class="down">
+                <!-- <div><img src="https://cdn.iconscout.com/icon/free/png-256/keyboard-arrow-down-1781999-1514199.png" alt="" class="down"></div> -->
+            </div>
+            <div class="search">
+                <div id="item8">
+                    Search
+                </div>
+                <img src="https://icons-for-free.com/download-icon-search-131964784990705675_512.png" alt="" class="sea">
+            </div>
+            <div class="cart">
+                <div id="item9">
+                    Cart
+                </div>
+                <img src="https://spng.subpng.com/20180609/fe/kisspng-shopping-cart-software-online-shopping-clip-art-5b1bd1382ecbe5.7637475215285496881917.jpg" alt="" class="car">
+            </div>
+            <div class="sign">
+                <div id="item10">
+                    Sign in
+                </div>
+                <img src= ".dist/sign in.png" alt="" class="signin">
+            </div>
+        </div>
+        <div id="action"></div>
+    </div>
+    <div class="addbox">
+        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-All-Colors-FY23HOL:VP5-1920x600" alt="" class="laptopadv">
+        <div id="detail">
+            <div id="new">
+                New
+            </div>
+            <div id="surfacepro">
+                Surface Pro 9
+            </div>
+            <div id="freekagyan">
+                Keep spirits bright with a game-changing combo of laptop power and tablet flexibility—all in one ultra-portable device
+            </div>
+            <div class="learn">
+                <div id="me">Learn me</div>
+            </div>
+        </div>
+    </div>
+    <div class="arrow">
+            <div>
+                <img src=".dist/left arrow.png" class="a1" alt="">
+            </div>
+            <div>
+                <img src=".dist/two bullets.png" class="a2" alt="">
+            </div>
+            <div>
+                <img src=".dist/right arrow.png" class="a3" alt="">
+            </div>
+    </div>
+    <div class="options">
+        <div id="option1">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Windows-Logo-80x80?wid=40&hei=40" alt="" class="opt1">
+            <br>
+            <div class="opt2">Choose your Microsoft 365</div>
+        </div>
+        <div id="option2">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Tablet-Kickstand-Landscape-Mode-Fluent-80x80?wid=40&hei=40" alt="" class="opt1">
+            <br>
+            <div class="opt2">Explore Surface devices</div>
+        </div>
+        <div id="option3">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Xbox-Logo-80x80?wid=40&hei=40" alt="" class="opt1">
+            <br>
+            <div class="opt2">Buy Xbox games</div>
+        </div>
+        <div id="option4">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Windows-Logo-80x80?wid=40&hei=40" alt="" class="opt1">
+            <br>
+            <div class="opt2">Get Windows 11</div>
+        </div>
+    </div>
+    <div class="newadvbox">
+        <div class="adv">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-5-Platinum-Alcantara-FY23HOL?wid=380&hei=213&fit=crop" alt="" class="advv">
+            <div class="box"><div id="newbox">New</div></div>
+            <div class="tit">Surface Laptop 5</div>
+            <div class="gyan" id="gyan1">
+                Sophisticated style and multitasking speed powered by 12th Gen Intel® Core™ i5/i7 processors built on the Intel® Evo™ platform make this the perfect gift</div>
+                <div class="gyann" id="cha1">Learn more></div>
+        </div>
+        <div class="adv">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Xbox-Series-X-FY23HOL?wid=380&hei=213&fit=crop" alt="" class="advv">
+            <div class="box"></div>
+            <div class="tit">Xbox Series X</div>
+            <div class="gyan" id="gyan2">Give thrills that'll last all year with the fastest, most powerful Xbox ever.</div>
+            <div class="gyann" id="cha2">Shop Xbox Series X ></div>
+        </div>
+        <div class="adv">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-FY23HOL?wid=380&hei=213&fit=crop" alt="" class="advv">
+            <div class="box"></div>
+            <div class="tit">Microsoft 365</div>
+            <div class="gyan" id="gyan3">Apps and features to help you turn ideas into reality, stay safer and focus on the important things in life.</div>
+            <div class="gyann" id="cha3">For one person ></div>
+            <div class="gyann" id="cha5">For up to six people ></div>
+        </div>
+        <div class="adv">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Windows11-GlobalLaunch?wid=380&hei=213&fit=crop" alt="" class="advv">
+            <div class="box"></div>
+            <div class="tit" id="diff">Designed for life today - and tomorrow</div>
+            <div class="gyan" id="gyan4">The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love.</div>
+            <div class="gyann" id="cha4">See if your PC is ready ></div>
+        </div>
+    </div>
+</body>
+</html>
